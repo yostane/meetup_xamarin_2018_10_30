@@ -1,6 +1,7 @@
 ﻿using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using MonStarWars.Views;
 
 [assembly: XamlCompilation(XamlCompilationOptions.Compile)]
 namespace MonStarWars
@@ -11,7 +12,7 @@ namespace MonStarWars
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new SWPage();
         }
 
         protected override void OnStart()
